@@ -17,3 +17,6 @@ Teknologi yang digunakan:
 4. NumPy
 5. Matplotlib
 6. Scikit-learn
+
+Silahkan download dataset terlebih dahulu, sebelum menjalankan file codingan:
+https://drive.google.com/file/d/1m3dEAz_7HJB9ZdXlSiZcu2xuDxU6Cwtc/view?usp=sharing
