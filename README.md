@@ -1,17 +1,17 @@
-# 🌾 Crop Yield Prediction menggunakan Machine Learning
+# Crop Yield Prediction menggunakan Machine Learning
 
 Repository ini berisi proyek tugas mata kuliah **Machine Learning** untuk melakukan analisis data pertanian dan membangun model prediksi hasil panen (*Crop Yield Prediction*) menggunakan Python.
 
 Proyek ini bertujuan untuk mempelajari penerapan Machine Learning dalam memperkirakan hasil panen berdasarkan karakteristik pertanian dan kondisi lingkungan.
 
-## 👩‍🎓 Informasi Mahasiswa
+## Informasi Mahasiswa
 
 - **Nama:** Ilma Parma Sakia Daulay
 - **Universitas:** Universitas Pamulang
 - **Kelas:** 05TPLP022
 - **Mata Kuliah:** Machine Learning
 
-## 🎯 Tujuan Proyek
+## Tujuan Proyek
 
 Tujuan dari proyek ini adalah:
 
@@ -22,7 +22,7 @@ Tujuan dari proyek ini adalah:
 5. Membandingkan performa model menggunakan metrik evaluasi.
 6. Menyimpan model terlatih agar dapat digunakan kembali untuk melakukan prediksi.
 
-## 📊 Dataset
+## Dataset
 
 Dataset yang digunakan adalah `crop_yield.csv`, yang berisi informasi mengenai hasil panen dan faktor-faktor yang berhubungan dengan kegiatan pertanian.
 
@@ -55,7 +55,7 @@ Dataset dapat diakses melalui tautan Google Drive berikut:
 
 [Unduh Dataset Crop Yield](https://drive.google.com/file/d/1m3dEAz_7HJB9ZdXlSiZcu2xuDxU6Cwtc/view?usp=sharing)
 
-## ⚙️ Tahapan Pengerjaan
+## Tahapan Pengerjaan
 
 Proyek ini mencakup beberapa tahapan pengolahan data dan pemodelan Machine Learning:
 
@@ -70,7 +70,7 @@ Proyek ini mencakup beberapa tahapan pengolahan data dan pemodelan Machine Learn
 9. **Model Saving** — menyimpan model terlatih menggunakan Joblib.
 10. **Prediction Testing** — menguji model untuk menghasilkan prediksi berdasarkan data masukan.
 
-## 🤖 Algoritma Machine Learning
+## Algoritma Machine Learning
 
 Algoritma regresi yang digunakan dalam proyek ini meliputi:
 
@@ -80,21 +80,8 @@ Algoritma regresi yang digunakan dalam proyek ini meliputi:
 
 Ketiga algoritma digunakan untuk mempelajari hubungan antara karakteristik pertanian dan hasil panen. Performa masing-masing model dapat dibandingkan berdasarkan hasil evaluasi pada data testing.
 
-## 📈 Evaluasi Model
 
-Evaluasi dilakukan untuk mengukur kemampuan model dalam memprediksi hasil panen.
-
-| Metrik | Keterangan |
-|---|---|
-| MAE (*Mean Absolute Error*) | Mengukur rata-rata selisih absolut antara nilai aktual dan prediksi. |
-| MSE (*Mean Squared Error*) | Mengukur rata-rata kuadrat kesalahan prediksi. |
-| R² (*Coefficient of Determination*) | Mengukur proporsi variasi nilai target yang dapat dijelaskan oleh model. |
-
-Secara umum, nilai MAE dan MSE yang lebih rendah menunjukkan kesalahan prediksi yang lebih kecil, sedangkan nilai R² yang lebih tinggi menunjukkan kemampuan model yang lebih baik dalam menjelaskan variasi target.
-
-Nilai evaluasi dan model terbaik mengikuti hasil eksperimen yang tercatat pada notebook.
-
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 - **Python** — bahasa pemrograman utama.
 - **Jupyter Notebook** — lingkungan untuk analisis data dan eksperimen.
@@ -104,32 +91,7 @@ Nilai evaluasi dan model terbaik mengikuti hasil eksperimen yang tercatat pada n
 - **Scikit-learn** — preprocessing, pemodelan, dan evaluasi Machine Learning.
 - **Joblib** — penyimpanan dan pemuatan model terlatih.
 
-## 📁 Struktur Repository
-
-```text
-MachineLearning-CropYield-IlmaParma/
-├── CropYield.ipynb
-├── crop_yield.csv
-├── train.csv
-├── test.csv
-├── crop_yield_gbr_model.joblib
-├── deploy.py
-├── README.md
-└── .gitignore
-```
-
-### Keterangan File
-
-- `CropYield.ipynb` — notebook utama untuk analisis data, preprocessing, pelatihan, evaluasi, dan pengujian model.
-- `crop_yield.csv` — dataset utama untuk analisis dan pemodelan.
-- `train.csv` — file data training.
-- `test.csv` — file data testing.
-- `crop_yield_gbr_model.joblib` — file model Gradient Boosting Regressor yang telah disimpan.
-- `deploy.py` — skrip Python untuk mendukung proses prediksi atau deployment.
-- `README.md` — dokumentasi proyek.
-- `.gitignore` — daftar file atau folder yang tidak perlu dilacak oleh Git.
-
-## 💻 Cara Menjalankan Proyek
+## Cara Menjalankan Proyek
 
 ### 1. Clone Repository
 
@@ -173,7 +135,7 @@ jupyter notebook
 
 Buka file `CropYield.ipynb`, kemudian jalankan sel notebook sesuai urutan pengerjaan.
 
-## 📝 Hasil Proyek
+## Hasil Proyek
 
 Proyek ini menghasilkan:
 
@@ -191,5 +153,5 @@ Proyek ini dibuat untuk keperluan pembelajaran dan tugas mata kuliah Machine Lea
 
 ---
 
-**Dibuat oleh Ilma Parma Sakia Daulay**  
+**Ilma Parma Sakia Daulay**  
 Universitas Pamulang — Kelas 05TPLP022
